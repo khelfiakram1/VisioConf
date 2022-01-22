@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Inscirption</title>
+    <link rel="stylesheet" href="css/inscription.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="logo"><a href="index.html">Acceuil</a></li>
+                <li><a href="inscription.html">S'inscrire</a></li>
+                <li><a href="connection.html">Se connecter</a></li>
+                <li><a href="#contact">Nous contacter</a></li>
+                <li><a href="#plus">Plus</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2> Créer votre compte ! </h2>
+        <input type="text" placeholder="Nom..." required><br>
+        <input type="text" placeholder="Prenom..." required><br>
+        <input type="email" placeholder="E-mail..." required><br>
+        <input type="text" placeholder="Nom d'utilisateur..." required><br>
+        <input type="password" placeholder="Mot de passe..." required><br>
+        <button onclick="test()"> Soumettre </button>
+    </div>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAbe-OWPjftb0XvDtcodg_-uiZZvHER6p0",
+          authDomain: "visioconf-f663a.firebaseapp.com",
+          databaseURL: "https://visioconf-f663a-default-rtdb.europe-west1.firebasedatabase.app",
+          projectId: "visioconf-f663a",
+          storageBucket: "visioconf-f663a.appspot.com",
+          messagingSenderId: "392667219886",
+          appId: "1:392667219886:web:a6a7603b35c8f12bc36a3f",
+          measurementId: "G-KNV1DP88PD"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+      <script type="text/javascript" src="script/script.js"></script>
+
+</body>
+
+</html>
