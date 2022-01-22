@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Advent Pro', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 2em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* ******************* NAVBAR ******************* */
+nav {
+  overflow: hidden;
+  background-color: rgb(154, 155, 158);
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+header li {
+  float: right;
+  font-size: 1.2em;
+
+}
+header li a {
+  text-decoration: underline solid rgb(68, 68, 68);
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+}
+#logo {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  float: left;
+}
+/* **************** IMAGE PRINCIPALE ************* */
+#imagePrincipale {
+  padding-top: 60px;
+  background: url(media/imagePrincipale.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 799px;
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: rgb(13, 13, 14);
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+}
+#premierTrait {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: #FFFAE1;
+  box-shadow: 1px 3px 2px black;
+}
+h3 {
+  text-align: center;
+  color:rgb(187, 188, 240);
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+/* *************** PRESENTATION ********************** */
+#presentation {
+  background-color: rgb(241, 240, 248);
+  padding: 10px 0px 100px 10px;
+}
+#texteIntro {
+  padding: 0px 20%;
+}
+#prestations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;  
+}
+.imagesPrestations h4 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+.imagesPrestations img {
+    height: 300px;
+    width:300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(245, 213, 213, 0.7);
+}
+.imagesPrestations img:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+#texte {
+    padding: 0px 20%;
+  }
+/* **************** plus ********************** */
+#plus {
+  height: 1400px;
+  background-color: rgb(231, 231, 236);
+  padding: 10px 0px 100px 10px;
+}
+#plus h2 {
+  padding-top: 60px;
+}
+#Texte1 {
+  background: url(media/covid.png);
+}
+#Texte2 {
+  background: url(media/visioconference1.jpg);
+}
+#Texte3 {
+  background: url(media/letsmeet1.png);
+}
+#Texte4 {
+  background: url(media/letsmeet3.png);
+}
+#plus li {
+  margin: 65px 100px 0 100px;
+  height: 210px;
+  width: 60%;
+  max-width: 600px;
+  float: left;
+  box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+#plus p {
+  height: 40px;
+  width: 200px;
+  background-color: rgb(110, 129, 146);
+  float:right;
+  margin: 50px -150px 0 0;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 15px;
+  box-shadow: 4px 4px 0 1px rgb(95, 100, 110);
+}
+#plus #Texte2, #plus #Texte4 {
+  float: right;
+}
+#Texte1 p, #Texte3 p {
+  float: left;
+  background-color: rgb(110, 129, 146);
+  margin-left: -120px;
+  box-shadow: -4px 4px 0 1px rgba(95, 100, 110, 1);
+}
+/* ******************* FOOTER ******************** */
+footer {
+  background-color: #86878b;
+  color: #3b3849;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  max-width: 900px;
+}
+input, textarea, button {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: 'Advent Pro', sans-serif;
+  border-radius: 8px;
+}
+textarea {
+  height: 120px;
+}
+button {
+  font-size: 1.5em;
+  background-color: #f5eeec;
+}
+button:hover {
+  background-color: #ebb8a4;
+  color: #FFFAE1;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait {
+  height: 1px;
+  width: 75%;
+  background-color: #FFFAE1;
+  margin: 60px auto;
+}
+#copyrightEtIcons {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+#copyright {
+  width: 50%;
+  text-align: left;
+  color: #FFFAE1;
+}
+#icons {
+  width: 50%;
+  text-align: right;
+}
+#icons a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1.3em;
+  color: #FFFAE1;
+}
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+}

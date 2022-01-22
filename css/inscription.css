@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Advent Pro', sans-serif;
+  padding: 0;
+  margin: 0;
+  background: url(media/image.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+}
+.container {
+  max-width: 380px;
+  margin-top: 50px;
+  margin-left: 650px;
+  margin-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  border-radius: 20px;
+  padding: 40px;
+  color: #fff;
+  box-sizing: border-box;
+}
+h2 {
+   color: #fff;
+   text-align: center;
+   text-transform: capitalize;
+   font-size: 35px;
+}
+input{
+  width: 250px;
+  margin: 10px 0;
+  outline: none;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  padding: 10px 6px;
+  font-size: 18px;
+  box-sizing: border-box;
+  border : none;
+  border-bottom: 1px #fff solid;
+}
+button{
+  width: 100px;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: rgb(65, 63, 63);
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+  margin: 30px 10px 0px 10px;
+
+}
+
+ul {
+    margin: auto;
+    padding: auto;
+    font-weight: bold;
+  }
+li {
+    list-style-type: none;
+  }
+a {
+    text-decoration: none;
+    color: black;
+  }
+/* ******************* NAVBAR ******************* */
+nav {
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+    background-color: rgb(154, 155, 158);
+    position: sticky;
+    width: 100%;
+    opacity: 0.9;
+  }
+header li {
+    float: right;
+    font-size: 1.2em;
+  
+  }
+header li a {
+    text-decoration: underline solid rgb(68, 68, 68);
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+  }
+#logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    float: left;
+  }
+  
+
